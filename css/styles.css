@@ -16,9 +16,8 @@ body {
     display: flex;
 }
 
-.user-profile-button {
+.user-profile-left button {
     color: white;
-    background-color: #66C15E;
     border-radius: 1%;
     width: 150px;
     height: 40px;
@@ -28,8 +27,20 @@ body {
     margin-bottom: 20px;
 }
 
-.user-profile-button:hover {
+.user-profile-follow {
+    background-color: #66C15E;
+}
+
+.user-profile-unfollow {
+    background-color: #a0a0a0;
+}
+
+.user-profile-follow:hover {
     background-color: #6dcc66;
+}
+
+.user-profile-unfollow:hover {
+    background-color: #acacac;
 }
 
 .user-profile-right p {
